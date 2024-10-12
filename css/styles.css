@@ -45,22 +45,24 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 img {
   display: block;
-  max-width: 100%;
 }
 
 /* --------Header-------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -232,11 +234,11 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  border-radius: 0 0 4px 4px;
 }
 
 .team-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .team-image {
 }
@@ -293,6 +295,7 @@ img {
 .container-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
